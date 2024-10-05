@@ -5,8 +5,9 @@ import {
   Expertise,
   Project,
   Navigation,
-  Footer,
+  Footer
 } from "./components";
+import CvSection from './components/CvSection';  // Make sure the path is correct
 import FadeIn from './components/FadeIn';
 import './index.scss';
 
@@ -33,7 +34,7 @@ function App() {
             <Expertise/>
             <Timeline/>
             <Project/>
-            
+            <CvSection />
         </FadeIn>
         <Footer />
     </div>
